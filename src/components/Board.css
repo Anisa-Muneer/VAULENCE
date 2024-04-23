@@ -17,3 +17,71 @@
     color: white;
     font-size: 15px;
 }
+
+.hero-text {
+    margin-top: 5%;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 130px;
+}
+
+
+
+.launch {
+    text-align: center;
+    margin-top: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.imagine {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .hero-text {
+        margin-top: 12%;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 130px;
+
+    }
+
+    .launch {
+        margin-top: -1.5rem;
+    }
+
+    .imagine {
+        margin-top: -0.2rem;
+    }
+
+    .singleImage {
+        margin-left: 22%;
+        margin-top: 5%;
+    }
+
+    .para {
+        margin-left: -2rem;
+
+
+    }
+
+    .para p {
+        font-size: 0.4rem;
+        margin-left: 1rem;
+
+    }
+
+    /* .icon-bg-round {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon {
+        font-size: 12px;
+
+    } */
+}

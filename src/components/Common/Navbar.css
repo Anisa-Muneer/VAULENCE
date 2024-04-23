@@ -1,10 +1,10 @@
-/* .nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 40px 120px;
     color: #424242;
-    font-family: ;
+
 
 }
 
@@ -14,18 +14,41 @@
     list-style: none;
     font-size: 18px;
     gap: 90px;
-} */
+}
 
-@font-face {
-    font-family: myFont;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    /* src: url(/client/src/assets/font.ttf); */
-    src: url(/client/src/assets/Gobold\ Regular.otf);
+.container {
+    position: relative;
+}
+
+.logo {
+    z-index: 2;
 
 }
 
-.font-myFont {
-    font-family: myFont;
+.firstImage {
+    position: absolute;
+    top: -48%;
+    left: -10%;
+    transform: scale(2.5);
+    width: 25vw;
+    height: 30vw;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    width: 10vw;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .firstImage {
+        top: -20%;
+    }
+
+    .logo {
+        width: 10vw;
+        margin-top: 6%;
+        margin-left: -12%;
+    }
 }
