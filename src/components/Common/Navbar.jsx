@@ -1,29 +1,18 @@
-import React from 'react'
-import './Navbar.css'
-import triangle from '../../assets/POLY.png'
-
+import React from 'react';
+import triangle from '../../assets/POLY1.png';
 
 function Navbar() {
     return (
-        <div className='container'>
-
+        <div className='relative'>
             <nav className='flex items-center px-10 font-myFont'>
-                <img src="/LOGOLLKLKLKL.png" alt="" className=' logo' />
-                <img src={triangle} className='firstImage' alt="" />
-                {/* <ul className='hidden md:flex flex-1 text-left '>
-                    <li className='list-none inline-block px-5' style={{ color: '#424242' }}> <a href="#" className='no-underline text-#424242 px-2'> INCRIPTIONS </a></li>
-                    <li className='list-none inline-block px-5' style={{ color: '#424242' }}> <a href="#" className='no-underline text-#424242 px-2'> LINEUP </a></li>
-                    <li className='list-none inline-block px-5' style={{ color: '#424242' }}> <a href="#" className='no-underline text-#424242 px-2'> INFORMATION </a></li>
-                    <li className='list-none inline-block px-5' style={{ color: '#424242' }}> <a href="#" className='no-underline text-#424242 px-2'> EXPERIENCE </a></li>
-                </ul> */}
+                <img src="/LOGOLLKLKLKL.png" alt="" className='w-[10vw] cursor-pointer z-20' style={{ width: '10vw' }} />
 
-                {/* <button className="md:hidden  flex justify-items-end">Menu</button> */}
-
+                <img src={triangle} alt=""
+                    className='absolute z-10 max-w-full'
+                    style={{ top: '-48%', left: '-10%', transform: 'scale(2.5)', width: '25vw', height: '30vw' }} />
             </nav>
         </div>
-
-    )
+    );
 }
 
-export default Navbar
-
+export default Navbar;

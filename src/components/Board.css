@@ -1,81 +1,91 @@
-.icon-bg-round {
-    background-color: black;
-    border-radius: 50%;
-    width: 17px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  body,
+  html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      /* Hide vertical scrollbar */
+  }
 
-.icon {
-    color: white;
-    font-size: 12px;
-}
+  .icon-bg-round {
+      background-color: black;
+      border-radius: 50%;
+      width: 17px;
+      height: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 
-.icon1 {
-    color: white;
-    font-size: 15px;
-}
+  .icon {
+      color: white;
+      font-size: 12px;
+  }
 
-.hero-text {
-    margin-top: 5%;
-    font-size: 90px;
-    font-weight: 500;
-    line-height: 130px;
-}
+  .icon1 {
+      color: white;
+      font-size: 15px;
+  }
 
-
-
-.launch {
-    text-align: center;
-    margin-top: 1.8rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.imagine {
-    margin-top: 0.5rem;
-    font-size: 0.875rem;
-    font-weight: 600;
-}
+  .hero-text {
+      margin-top: 5%;
+      font-size: 90px;
+      font-weight: 500;
+      line-height: 130px;
+  }
 
 
-@media (max-width: 768px) {
-    .hero-text {
-        margin-top: 12%;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 130px;
 
-    }
+  .launch {
+      text-align: center;
+      margin-top: 1.8rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
 
-    .launch {
-        margin-top: -1.5rem;
-    }
-
-    .imagine {
-        margin-top: -0.2rem;
-    }
-
-    .singleImage {
-        margin-left: 25%;
-        margin-top: 5%;
-    }
-
-    .para {
-        margin-left: -2rem;
+  .imagine {
+      margin-top: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+  }
 
 
-    }
+  @media (max-width: 768px) {
+      .hero-text {
+          margin-top: 12%;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 130px;
 
-    .para p {
-        font-size: 0.4rem;
-        margin-left: 1rem;
+      }
 
-    }
+      .launch {
+          margin-top: -1.5rem;
+      }
 
-    /* .icon-bg-round {
+      .imagine {
+          margin-top: -0.2rem;
+      }
+
+      .singleImage {
+          margin-left: 28%;
+          margin-top: 5%;
+      }
+
+      .para {
+          margin-left: -2rem;
+
+
+      }
+
+      .para p {
+          font-size: 0.4rem;
+          margin-left: 1rem;
+
+      }
+
+      /* .icon-bg-round {
         width: 20px;
         height: 20px;
     }
@@ -84,4 +94,4 @@
         font-size: 12px;
 
     } */
-}
+  }

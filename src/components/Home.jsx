@@ -1,20 +1,15 @@
 import React from 'react'
 import './Hom.css'
-import styled from 'styled-components'
-import triangle from '../assets/POLY.png'
+
 
 function Home() {
     return (
-        <div className='home'>
-            <div className=''>
 
-                {/* <img src={triangle} className='firstImage' alt="" /> */}
-                {/* <Img2 src={triangle} className='w-[30vw]' alt="" /> */}
-                {/* <Img3 src={triangle} className='w-[24vw]' alt="" /> */}
-                {/* <Img4 src={triangle} className='w-[18vw]' alt="" /> */}
-            </div>
+        <div class="fixed top-0 left-0 right-0 bottom-0 w-full h-screen p-0 bg-gray-300 z-[-1]">
 
-        </div >
+        </div>
+
+
     )
 }
 
