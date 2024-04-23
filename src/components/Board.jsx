@@ -89,13 +89,13 @@ const Img3 = styled.img`
     margin-top: 2rem;
     width: 100%;
     height: 70%;
-    left:45%;
+    left:50%;
   }
 `;
 
 const Img4 = styled.img`
   display: block; 
-  transform: translate(-50%, -50%) rotate(-50deg); 
+  transform: translate(-50%, -50%) rotate(-40deg); 
   position: absolute; 
   top: 90%;
   left: 7%;
