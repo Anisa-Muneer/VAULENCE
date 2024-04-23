@@ -29,12 +29,12 @@ const Img1 = styled.img`
 const Img2 = styled.img`
   display: block; 
   margin: auto;
-  transform: translate(-50%, -50%) rotate(-12deg); 
+  transform: translate(-50%, -50%) rotate(-9deg); 
   position: absolute; 
-  top: 60%; 
-  left: 50%;
-  width:60vw;
-  height:75vw
+  top: 58%; 
+  left: 44%;
+  width:78vw;
+  height:80vw
 `;
 
 const Img3 = styled.img`
@@ -42,7 +42,7 @@ const Img3 = styled.img`
   transform: translate(-50%, -50%) rotate(35deg); 
   position: absolute; 
   top: 42%; 
-  right: -30%;
+  right: -33%;
   width: 55vw;
   height:70vw
 `;
