@@ -59,7 +59,7 @@ function Board() {
                     </div>
                 </ContentDiv>
                 <Img4 src={triangle} alt="" />
-                <Img5 src={triangle} alt="" />
+                {/* <Img5 src={triangle} alt="" /> */}
             </div>
         </>
     );
