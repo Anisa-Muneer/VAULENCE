@@ -78,7 +78,7 @@ height : 80vh;
 @media (max-width: 768px) {
   transform: translate(-50%, -50%) rotate(350deg);
   height: 30vh; // Increase minimum height for smaller screens
-  top : 25%;
+  top : 30%;
 }
 `;
 
@@ -103,7 +103,7 @@ const Img3 = styled.img`
   @media (max-width: 768px) {
     right: 20%;
     height: 20vh;
-    top:45%;
+    top:55%;
   }
 `;
 
