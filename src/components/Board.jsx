@@ -4,6 +4,7 @@ import PICCC from '../assets/PICCC.png';
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import styled from 'styled-components';
 import triangle from '../assets/POLY1.png';
+import tran from '../assets/erererere.png'
 
 function Board() {
     return (
@@ -58,6 +59,7 @@ function Board() {
                     </div>
                 </ContentDiv>
                 <Img4 src={triangle} alt="" />
+                <Img5 src={triangle} alt="" />
             </div>
         </>
     );
@@ -119,5 +121,19 @@ const Img4 = styled.img`
     left: 15%;
     
     height: 25vh;
+  }
+`;
+const Img5 = styled.img`
+  display: none; /* Initially hide Img5 */
+  
+  @media (max-width: 768px) {
+    display: block; /* Display Img5 for screen sizes <= 768px */
+    transform: translate(-50%, -50%) rotate(-40deg);
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    height: 25vh;
+    z-index: 1;
+    
   }
 `;
