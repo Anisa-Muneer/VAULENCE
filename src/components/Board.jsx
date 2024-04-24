@@ -117,23 +117,10 @@ const Img4 = styled.img`
   z-index: 1;
 
   @media (max-width: 768px) {
-    top: 75%;
+    top: 95%;
     left: 15%;
     
     height: 25vh;
   }
 `;
-const Img5 = styled.img`
-  display: none; /* Initially hide Img5 */
-  
-  @media (max-width: 768px) {
-    display: block; /* Display Img5 for screen sizes <= 768px */
-    transform: translate(-50%, -50%) rotate(-40deg);
-    position: absolute;
-    top: 75%;
-    left: 15%;
-    height: 25vh;
-    z-index: 1;
-    
-  }
-`;
+
