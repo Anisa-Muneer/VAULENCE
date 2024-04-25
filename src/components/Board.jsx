@@ -42,7 +42,7 @@ function Board() {
                 </ContentDiv>
                 <Img3 src={triangle} alt="" />
 
-                <ContentDiv className='para'>
+                <ContentDiv className='para' style={{ marginTop: '6rem' }}>
                     <p className='px-10 mt-24 text-xs'>VAULENCE_CLOTHING</p>
                     <div className='flex flex-row gap-2 px-16 mt-2'>
                         <div className="icon-bg-round">
@@ -119,7 +119,6 @@ const Img4 = styled.img`
   @media (max-width: 768px) {
     top: 95%;
     left: 15%;
-    
     height: 25vh;
   }
 `;
